@@ -1,3 +1,26 @@
-body {
-    background: red;
+body{
+    background: url(http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/8/4/1/GL0509_chicken-parmigiana_s4x3.jpg);
+    background-size: cover;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+p {
+	font-family: helvetica, arial, serif;
+	color: black;
+	background-color: white;
+	
+}
+li {
+	font-family: helvetica, arial, serif;
+	color: black;
+	background-color: white;
+}
+ol {
+	background-color: white;
 }
