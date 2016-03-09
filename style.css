@@ -10,11 +10,11 @@ h1{
 	text-align: center;
 	text-decoration: underline;
 }
-p {
+p span{
 	font-family: helvetica, arial, serif;
 	color: black;
 	background-color: white;
-	
+
 }
 li {
 	font-family: helvetica, arial, serif;
