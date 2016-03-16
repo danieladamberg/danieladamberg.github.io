@@ -1,0 +1,63 @@
+.container {
+	width: 720px;
+	padding: 54px;
+	border: solid left 6px;
+	border-color: #dddddd;
+	margin: auto 0;
+	font-family: Lato;
+	text-align: left;
+}
+
+header h1 {
+	color: red;
+}
+
+.date {
+	color: cccccc;
+}
+
+header {
+	color: #444444;
+	font-family: Lato;
+	line-height: 1.5;
+}
+
+nav a {
+	color: #dddddd;
+	padding: 5px;
+}
+
+nav a:hover {
+	color: black;
+}
+
+.cont-link {
+	color: red;
+	text-align: right;
+	text-decoration: none;
+}
+
+.cont-link a{
+	text-decoration: none;
+	color: red;
+}
+
+
+.cont-link a:hover {
+	color: black;
+}
+
+footer nav a {
+	text-align: inline;
+	color: red;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.copyright {
+	color= #bbbbbb;
+}
+
+img {
+	max-width: 100%;
+}
