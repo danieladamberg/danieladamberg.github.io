@@ -1,0 +1,158 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 55px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+  background-color: #f0efef;
+
+}
+
+header {
+  overflow: auto;
+  background-color: #033048;
+}
+
+header h1 {
+  float: left;
+  color: white;
+  width: 200px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+header nav {
+  float: right;
+  width: 760px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+section {
+  float: left;
+  width: 700px;
+}
+
+aside {
+  float: right;
+  width: 240px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f9e42e;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.categories h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.about h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.more-link {
+  text-align: right;
+}
+
+img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+section h1 {
+  font-weight: 600;
+  font-size: 40px;
+  padding: 15px;
+  margin: 15px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 24px;
+
+}
+
+p::first-letter {
+  font-size: 70px;
+  padding-right: 5px;
+  font-weight: 600;
+  float: left;
+}
+
+.footer a {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  background-color: #033048;
+  width: 300px;
+  position: center;
+  overflow: auto;
+}
+
+footer {
+  background-color: #f9e42e;
+  overflow: auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
