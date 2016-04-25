@@ -1,5 +1,5 @@
 .container {
-	width: 960px;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -28,15 +28,23 @@ header nav a {
 
 section {
 	background-color: black;
+	width: 100%;
 }
 
 article {
 	background-color: white;
+	width: 49%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+
+
 }
 
 /* targets the 1st article; nth-child(2) would target the 2nd article*/
 article:nth-child(1) {
 	margin-right: 10px;
+
 }
 
 article h1 {

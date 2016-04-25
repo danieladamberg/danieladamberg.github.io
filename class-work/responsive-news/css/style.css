@@ -108,5 +108,20 @@ p {
 	#container {
 		width: 100%;
 	}
+
+	#articles {
+		float: none;
+		width: 100%;
+	}
+
+	.main-article {
+		float: none;
+		width: 100%;
+	}
+
+	#side-column {
+		float: none;
+		width: 100%;
+	}
 }
 

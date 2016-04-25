@@ -38,30 +38,65 @@ nav a:hover {
 
 sidebar {
   float: left;
-  width: 25%;
+  width: 15%;
 }
 
-sidebar img {
-padding: 40px;
-}
 
 sidebar h3 {
   color: white;
   font-family: 'anaheim';
   margin-left: 10px;
-  float: left;
 }
 
 #map {
   float: right;
-  width: 75%;
-  height: 100%;
+  width: 85%;
+  height: 550px;
 }
 
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: grey;
+}
 
+#results {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 
-sidebar img {
-  float: left;
-  height: 200px;
-  width: 300px;
+#costWatt {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#capacity {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#about {
+  display: none;
+  position:fixed;
+  left:50%;        
+  top:50%;         
+  width:60%;     
+  text-align: center;
+  padding: 50px;
+  margin-top:-20%;
+  margin-left:-30%;
+  background:#FFFFFF;
+  z-index:100000;      
 }

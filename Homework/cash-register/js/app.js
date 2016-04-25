@@ -18,9 +18,9 @@ $(document).ready(function () {
 	$('#entry').submit(function (event) {
 		event.preventDefault()
 		var cost = $('#newEntry').val()
-		var parsedCost = parseInt(cost)
+		var parsedCost = parseFloat(cost)
 
-		$('#entries').append(parsedCost)
+		$('#entries').append('<tr><td></td><td>' + parsedCost + '</td></tr>')
 		
 
 		var totalCost = $('#total').text()
