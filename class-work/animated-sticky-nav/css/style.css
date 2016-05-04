@@ -3,5 +3,26 @@
 }
 
 header {
+	height: 50px;
 	background: blue;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	transition: all 2s;
 }
+
+body {
+	margin-top: 50px;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+}
+
+.scrolled {
+	background-color: red;
+	font-size: 100px;
+	color: black;
+}
+
