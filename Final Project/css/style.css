@@ -64,11 +64,15 @@ sidebar p {
   height: 550px;
 }
 
-input {
+#zipcode {
   border: none;
   border-bottom: 1px solid white;
   background-color:  rgb(222,222,222);
   text-align: center;
+}
+
+#submit {
+  margin-top: 10px;
 }
 
 #resultsBox {
@@ -112,7 +116,7 @@ input {
 #capacity {
   font-family: 'anaheim'
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
   margin: 23px auto;
 }
 

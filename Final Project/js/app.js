@@ -3,13 +3,13 @@ $(document).ready(function () {
 
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 39.5, lng: -98.35},
-      scrollwheel: true,
-      zoom: 3
+    zoom: 3,
+    scrollwheel: true,
+    center: {lat: 39.5, lng: -98.35}
   });
   var geocoder = new google.maps.Geocoder();
 
-  document.getElementById('zipcode').addEventListener('click', function() {
+  document.getElementById('submit').addEventListener('click', function() {
     geocodeAddress(geocoder, map);
   });
 }
@@ -21,7 +21,7 @@ function geocodeAddress(geocoder, resultsMap) {
       resultsMap.setCenter(results[0].geometry.location);
       var marker = new google.maps.Marker({
         map: resultsMap,
-        position: results[0].geometry.location
+        position: results[0].geometry.location,
       });
     } else {
       alert('Geocode was not successful for the following reason: ' + status);
@@ -145,7 +145,3 @@ function geocodeAddress(geocoder, resultsMap) {
 
 
 })// end doc ready
-
-
-
-
