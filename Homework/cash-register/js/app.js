@@ -14,28 +14,23 @@
 // 7: Empty the input in #newEntry (clear it out)
 
 $(document).ready(function () {
-
+	
+	var total = 0;
 	$('#entry').submit(function (event) {
-		event.preventDefault()
-		var cost = $('#newEntry').val()
-		var parsedCost = parseFloat(cost)
+		event.preventDefault();
 
-		$('#entries').append('<tr><td></td><td>' + parsedCost + '</td></tr>')
-		
+		var newEntry = $('#newEntry').val();
+		newEntry = parseFloat(newEntry);
 
-		var totalCost = $('#total').text()
-		var parsedTotalCost = parseInt(totalCost)
+		$('#entries').append('<tr><td></td><td>' + newEntry + '</td></tr>');
 
-		var totalTotal = parsedCost + parsedTotalCost
-
-		$('#total').text(totalTotal)
+	
+		total = total + newEntry
 
 
+		$('#total').text('$' + total)
 
-	})
-
-
-
-
+		$('#newEntry').val('')
+	});
 
 })
